@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */ /* This will make the container take up the full height of the viewport */
+  }
+  
+  .searchContainer {
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  .countryGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .countryCard {
+    margin: 10px;
+    text-align: center;
+  }
+  
